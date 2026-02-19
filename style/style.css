@@ -11,6 +11,15 @@
     border-radius: 10px;
     cursor: pointer;
     color: white;
+    transition: all 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease;
+    /* transition: ease; */
+
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    background: #398601;
 }
 
 .banner {
@@ -86,6 +95,13 @@
 .shop-card img {
     width: 100%;
     padding: 20px 0;
+    transition: transform 0.4s ease-in-out;
+
+}
+
+.shop-card img:hover {
+    transform: rotateX(5deg) rotateY(5deg) scale(1.05);
+    cursor: pointer;
 }
 
 .shop-title {
@@ -106,6 +122,14 @@
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease, transform 0.25s ease, box-shadow 0.25s ease-in-out;
+}
+
+.brand-food-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 20px black;
+    background-color: #367f02;
+
 }
 
 /* === footer === */
@@ -143,6 +167,15 @@
 .footer-left-img img {
     height: 617px;
     border-radius: 20px;
+    transition: transform 0.4s ease-in-out;
+    /* transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1); */
+    will-change: transform;
+}
+
+.footer-left-img img:hover {
+    transform: translateY(-6px) scale(1.05);
+    /* transform: rotateX(5deg) rotateY(5deg) scale(1.05); */
+    /* transition: transform 0.45s cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
 .social-img-group img {
@@ -185,6 +218,11 @@
 .single-pizza-card img {
     width: 100%;
     padding: 20px;
+    transition: transform 0.4s ease-in-out;
+}
+
+.single-pizza-card img:hover {
+    transform: rotateX(5deg) rotateY(5deg) scale(1.05);
 }
 
 /* ==== footer 2 ====
