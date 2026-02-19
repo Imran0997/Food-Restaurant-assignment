@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==== shared ==== */
+.btn-primary {
+    padding: 12px 20px;
+    background: #52C303;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.banner {
+    padding: 50px 0;
+    height: 845px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0)), url("/assets/hero-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 912px;
+    text-align: center;
+}
+
+.section-sub-title {
+    font-size: 32px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 64px;
+    color: white;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.section-text {
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* ==== Favorite Brand ==== */
+.brands-food {
+    padding: 50px 0;
+}
+
+.brands-food-header {
+    width: 635px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.brands-food-sub-title {
+    color: #4b4a4a;
+    font-size: 16px;
+    padding: 10px 0;
+}
+
+.brands-food-title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 1434px;
+    margin: 0 auto;
+}
+
+.food-container-layout {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+}
+
+.shop-card img {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.shop-title {
+    background-color: #b3db96;
+    padding: 8px 10px;
+    border-radius: 10px;
+}
+
+.shop-discount {
+    padding: 20px 0;
+}
+
+.brand-food-btn {
+    background: #4bb102;
+    color: white;
+    padding: 8px 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* === footer === */
+.footer {
+    padding: 50px 0;
+}
+
+.footer-container {
+    /* max-width: 1766px; */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.footer-right-content {
+    max-width: 763px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.social-img-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-left-img img {
+    height: 617px;
+    border-radius: 20px;
+}
+
+.social-img-group img {
+    max-width: 20px;
+    cursor: pointer;
+
+}
+
+.footer-title {
+    font-size: 48px;
+    padding: 20px 0;
+}
+
+.footer-right-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.follow-up {
+    padding: 1px 0px;
+}
+
+.footer-line {
+    width: 50%;
+    margin: 15px auto;
+    border: none;
+    border-top: 2px solid #cfcfcf;
+}
+
+/* ==== single piza card ==== */
+.pizza-burg-card {
+    padding: 50px 0;
+}
+
+.single-pizza-card {
+    max-width: 392px;
+    margin: 0 auto;
+}
+
+.single-pizza-card img {
+    width: 100%;
+    padding: 20px;
+}
+
+/* ==== footer 2 ====
+.footer-2 {
+    background: url(/assets/social-bg.png);
+    background-size: cover;
+    height: 617px;
+    display: flex;
+    align-items: center;
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 1214px;
+    margin: 0 auto;
+}
+
+.footer-2-content {
+    max-width: 763px;
+    height: 366px;
+    padding: 0 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-content h1 {
+    font-size: 48px;
+    padding: 20px 0;
+}
+
+.section-content p {
+    font-size: 24px;
+    margin-bottom: 20px;
+} */
+.footer-2 {
+    background: url(/assets/social-bg.png) center/cover no-repeat;
+    min-height: 617px;
+    display: flex;
+    align-items: center;
+}
+
+.container-2 {
+    width: 100%;
+    max-width: 1214px;
+    margin: 0 auto;
+}
+
+.footer-2-content {
+    max-width: 763px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin: 30px 0;
+}
+
+.footer-divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #bbb;
+}
+
+.social-img-group {
+    display: flex;
+    gap: 20px;
+}
